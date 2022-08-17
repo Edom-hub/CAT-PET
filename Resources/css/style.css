@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+ul {
+}
+ul li{
+list-style: none;
+display: inline-block;
+
+}
+ul li a{
+text-decoration: none;
+padding: 20px 60px;
+float: right;
+color: white;
+font-size: 25px;
+}
+ul li a:hover{
+    background-color: #04AA6D;
+}
+
+nav {
+    background-color: rgb(152, 161, 155);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+@media screen and (max-width: 300px) {
+    nav a {
+       width: 100%;
+    }
+  }
+
+.green-cat {
+    width: 200%;
+    height: 250px;
+    overflow: hidden;
+    text-align: center;
+    margin: 60px;
+    background-size: 100% 100%;
+}
+main {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    background-color:#509473;
+    
+}
+h1 {
+    position: absolute;
+}
+.big-cat {
+    position:static;
+    height: 550px;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px rgba(70, 72, 72, 0.504);
+   
+}
+.big-cat img{
+width: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+    letter-spacing:0px;
+    word-spacing: 20px;
+    font-weight:bolder;
+  }
+h6 {
+    width: 70%;
+    align-items: center;
+    color:#ffffff;
+    padding: 40px;
+    margin:auto;
+    font-size: 12px;
+    font-weight: lighter;
+    text-indent: 30px;
+}
+form {
+    text-align: left;
+    margin: auto;
+    color: #04AA6D;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    background: #f1f1f1;
+  }
+   /* Add padding to container elements */
+   .container {
+    margin: auto;
+    padding: 16px;
+    background-color: #ddd;
+    width: 50%;
+    justify-content: left;
+    align-items: left;
+    box-shadow: 10px 10px 5px rgba(112, 115, 115, 0.23);
+}
+  .container img{
+    width: 100%;
+}
+  .container h1{
+    padding:20px;
+    align-content: center;
+    color :#04AA6D;
+  }
+  .container p{
+    padding-top:60px;
+    padding-left: 20px;
+    text-align: left;
+    color :#04AA6D;
+}
+  input[type=text]:focus, input[type=password]:focus {
+    background-color:#04AA6D;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    align-items: center;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 35%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .signupbtn {
+       width: 100%;
+    }
+  }
+html {
+    scroll-behavior: smooth;
+}
+#contact{
+margin-top: 40px;
+width: 50%;
+height: 450px;
+text-align: center;
+justify-content: center;
+float: right;
+}
+
+#contact img {
+    width: 100%;
+    display: inline;
+   
+}
+.address {
+  margin-top: 20px;
+  padding: 60px;
+  height: 450px;
+  background-color: #ddd;
+  text-align: left;
+ 
+}
+.address p {
+   margin-top: 30px;
+   font-size: 24px;
+   color: #04AA6D;
+   font-weight: lighter;
+   
+}
+.address h2 {
+  font-size: 48px;
+  color: #04AA6D;
+ }
+ iframe {
+   padding: 0 20px:
+ }
